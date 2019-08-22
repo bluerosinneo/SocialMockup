@@ -1,16 +1,23 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    border: 0px;
+}
+
 body{
+    box-sizing: border-box;
     background: lightgrey;
-    text-align: center;
     font-family: Arial, Helvetica, sans-serif;
 }
 
 header{
-    margin: 10px;
+    margin: 10px auto;
     width: 850px;
-    height: 300px;
-    text-align: left;
-    display: inline-block;
+    height: 280px;
+    /* text-align: left; */
 }
+
+
 
 
 #hero{
@@ -59,7 +66,7 @@ img{
 
 ul{  
     display: inline-block;
-    margin: 0px 5px 0px 5px;
+    margin: 2px 5px 0px 5px;
     padding: 0px;
     list-style-type: none;
 }
@@ -76,4 +83,81 @@ li{
 
 .needborder:not(:last-child){
     border-right: solid 1px lightblue;
+}
+
+#columns{
+    width: 850px;
+    margin: 0px auto;
+}
+
+.column{
+    float: left;
+    /* background-color: white; */
+    /* display: inline-block */
+}
+
+#leftColumn{
+    width: 328px;
+
+    margin: 0 10px 0 0;
+    padding: 0;
+}
+
+#rightColumn{
+    width: 512px;
+    padding: 0;
+}
+
+.smallSection{
+    margin-bottom: 10px;
+    background-color: white;
+    border-bottom: 2px solid lightblue;
+}
+
+.secHeading{
+    height: 30px;
+    border-top: 2px solid lightblue;
+    border-bottom: 2px solid lightblue;
+    padding: 2px;
+    font-size: 24px;
+}
+
+.secContent{
+    padding: 3px;
+}
+
+.appSymbol{
+    color: blueviolet;
+    font-size: 30px;
+}
+
+.appText{
+    position: relative;
+}
+
+.smallBoxG{
+    /* margin: 2.5px; */
+    height: 60px;
+    width: 60px;
+    background-color: greenyellow;
+    display: inline-block
+}
+.smallBoxM{
+    /* margin: 2.5px; */
+    height: 60px;
+    width: 60px;
+    background-color: mediumvioletred;
+    display: inline-block;
+}
+.smallBoxB{
+    /* margin: 2.5px; */
+    height: 60px;
+    width: 60px;
+    background-color: cyan;
+    display: inline-block;
+}
+
+
+#friendTwo{
+    height: 150px;
 }
