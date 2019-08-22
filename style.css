@@ -137,22 +137,22 @@ li{
 
 .smallBoxG{
     /* margin: 2.5px; */
-    height: 60px;
-    width: 60px;
+    height: 65px;
+    width: 65px;
     background-color: greenyellow;
     display: inline-block
 }
 .smallBoxM{
     /* margin: 2.5px; */
-    height: 60px;
-    width: 60px;
+    height: 65px;
+    width: 65px;
     background-color: mediumvioletred;
     display: inline-block;
 }
 .smallBoxB{
     /* margin: 2.5px; */
-    height: 60px;
-    width: 60px;
+    height: 65px;
+    width: 65px;
     background-color: cyan;
     display: inline-block;
 }
