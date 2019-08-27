@@ -1,3 +1,7 @@
+:root{
+    --easy-color: lightblue;
+}
+
 *{
     padding: 0px;
     margin: 0px;
@@ -22,7 +26,7 @@ header{
 
 #hero{
     height: 250px;
-    background: lightblue;
+    background: var(--easy-color);
 }
 
 
@@ -82,7 +86,7 @@ li{
 }
 
 .needborder:not(:last-child){
-    border-right: solid 1px lightblue;
+    border-right: solid 1px var(--easy-color);
 }
 
 #columns{
@@ -111,13 +115,13 @@ li{
 .smallSection{
     margin-bottom: 10px;
     background-color: white;
-    border-bottom: 2px solid lightblue;
+    border-bottom: 2px solid var(--easy-color);
 }
 
 .secHeading{
     height: 30px;
-    border-top: 2px solid lightblue;
-    border-bottom: 2px solid lightblue;
+    border-top: 2px solid var(--easy-color);
+    border-bottom: 2px solid var(--easy-color);
     padding: 2px;
     font-size: 24px;
 }
